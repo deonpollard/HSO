@@ -17,6 +17,11 @@ Although Export and Offload functionally appears to do the same thing they are b
 | Synopsis       | Export        | Offload  |
 | ------------- |:-------------:| -----:|
 | Function      | Copies data from Smartsheet to local storage | Copies data from Smartsheet to local storage | 
+| when to use   | incrementals cannot maintain high attachment ratios   | high speed snapshots or bulk offloads of attachments |
 | Input format  | Sheets, Attachments, Reports, Dashboards, Folders | Attachments |
 | Output format | ZIP file for every sheet                          | Flat folder |
 
+
+## Operations
+
+1. Offload behaviour is driven from a YML configuration file.  If none specified it assume there will be a config file called dmp_config.yml

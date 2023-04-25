@@ -24,4 +24,11 @@ Although Export and Offload functionally appears to do the same thing they are b
 
 ## Operations
 
-1. Offload behaviour is driven from a YML configuration file.  If none specified it assume there will be a config file called dmp_config.yml
+1. Offload behaviour is driven from a YML configuration file.  If none specified it assume there will be a config file called `dmp_config.yml` in the runtime folder. 
+   If not processing will stop with an error.
+2. Optionally a YML configuration file can be selected by specifying a run-time paramater and path to the file `-c="c:\path\myconfig.yml"`
+   This way every runtime instance can be driven from different parameters
+   
+### configuration file
+
+

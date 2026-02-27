@@ -49,7 +49,8 @@ The event must construct an email with a specific subject line
 Email message body is ignored, but email subject line must follow the following syntax
 
 ##### When signaling the offload of a complete User
-      `offload/secret/email` or `offload/secret/email/user`
+      > offload/secret/email
+      > offload/secret/email/user
 
        
 ##### When signaling the offload of a Workspace

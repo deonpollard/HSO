@@ -32,9 +32,15 @@ Offloader can be triggered to offload:
 ### Smartsheet events
 Offload can be triggered using Smartsheet automations using events such as
 
+1. trigger offload when new rows are added or changed
+2. trigger offload when a user is removed from a group
+3. trigger offload on a schedule
+
 
 ### External events
-Offload can be triggered from any external event
+External events outside Smartsheet or so-called Enterprise events can also trigger the offload process.  Optionally these could also be facilitated by Automation solutions such as Zapier, Make, Power-Automate and others.  Some examples
+1.  trigger when a user resign
+2.  
 
 ### How does it work?
 

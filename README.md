@@ -49,19 +49,30 @@ The event must construct an email with a specific subject line
 Email message body is ignored, but email subject line must follow the following syntax
 
 ##### When signaling the offload of a complete User
-      > offload/secret/email
-      > offload/secret/email/user
-
+   > ***offload/secret/email*** or
+   > ***offload/secret/email/user***
+---
+```
+      - slashes must subdivide the info without any spaces as shown
+      - offload must be spelled as shown
+      - secret is the allocated license code from HSO
+      - email is the email address of the Smartsheet user 
+      - user can optionally be supplied and must be spelled as shown
+```
+Example ***offload/87f2243/janie.adams@acme.com***
        
 ##### When signaling the offload of a Workspace
-       ```offload/secret/email/workspace/workspaceid``` 
-
+   > ***offload/secret/email/workspace/workspaceid***
+---
+```
 - slashes must subdivide the info without any spaces as shown
-- ***offload*** must be spelled as shown
-- ***secret*** is the allocated license code from HSO
-- ***email*** is the email address of the Smartsheet user 
-- ***user*** can optionally be supplied and must be spelled as shown
-
+- offload must be spelled as shown
+- secret is the allocated license code from HSO
+- email is the email address of the Smartsheet user 
+- workspace must be spelled as shown
+- workspaceid is the Smartsheet id for the workspace
+```
+Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 
 
 

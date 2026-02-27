@@ -1,10 +1,9 @@
-# Offload
-High speed Smartsheet offload facility catering for Sheet Attachments.  Capability allows one to *offload* all
-or selected attachments for one or more Users from Smartsheet to local storage.
+# HSO: High Speed Offloader/Onloader for Smartsheet
+The bulk data movement solution for efficiently moving bulk data in and out of Smartsheet, effortlessly overcoming the platform's inherent 100-item limitation.
 
-## Early Positioning
+## Features
 
-1. Initially called **DUMP** whilst in early Beta
+1. **Inter Region** Operate and move data accross Smartsheet regions, [not possible]: [https://github.com](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. Leaning towards the name **OFFLOAD**, sounds better, more valuable
 3. Package as part of the **SmartBackup** suite, now comprising of:
    - Backup

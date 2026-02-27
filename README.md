@@ -24,9 +24,22 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 | Regulatory compliance | Use HSO to streamline regulatory record-keeping and ensure compliance with applicable standards. HSO supports regulations such as DORA (Digital Operational Resilience Act) in the EU, helping you meet your organization's compliance requirements with ease. | 
 | Blueprinting | HHSO enables the effortless creation of new instances for key Projects, Solutions, or Sheet Collections in Smartsheet. Leverage predefined templates to ensure quick and efficient creating. | 
 
-### Triggered Events
-> Offloader can be triggered to offload:
+## Triggered Events
+Offloader can be triggered to offload:
 >   1. Any **User** complete with all its associated workspaces, folders, sheets and attachments
 >   2. Any **Workspace** with all its associated folders, sheets and attachments
+
+### Smartsheet events
+Offload can be triggered using Smartsheet automations using events such as
+
+
+### External events
+Offload can be triggered from any external event
+
+### How does it work?
+
+
+
+
 
 

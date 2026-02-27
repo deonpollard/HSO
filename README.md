@@ -43,7 +43,7 @@ External events outside Smartsheet or so-called Enterprise events can also trigg
 2.  
 
 ### How does it work?
-The event must construct an email with a specific subject line
+The flow must construct an email with a specific subject line and send it to the HSO Email gateway.  
 
 #### Email Format
 Email message body is ignored, but email subject line must follow the following syntax

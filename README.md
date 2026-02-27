@@ -8,6 +8,7 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 1. **Inter Region** Operate and move data accross Smartsheet regions, something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. **Intra Region** Data can be copied/moved based on Workspace/s or User/s or Account, something not possible using Smartsheet DataShuttle which only operate at sheet level.
 3. **Flexible invocations** Offloader/Onloader can be run on-demand or scheduled.  In addition offloader can be triggered by Smartsheet or Enterprise Events.
+4. **Folder hierarchies** Offload retain folder hierarchies
 
 
 ## When to use
@@ -25,7 +26,7 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 
 ### Triggered Events
 > Offloader can be triggered to offload:
->   1. User with all workspaces
->   2. Workspace
+>   1. Any **User** complete with all its associated workspaces, folders, sheets and attachments
+>   2. Any **Workspace** with all its associated folders, sheets and attachments
 
 

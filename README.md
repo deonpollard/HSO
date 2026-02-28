@@ -18,11 +18,14 @@ flowchart LR
 
 ## Features
 
-1. **Inter Region** Operate and move data accross Smartsheet regions, something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
+1. **Multi-Region Connectivity** Moves data across different Smartsheet regions (US, EU, APJ, GOV), something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. **Intra Region** Data can be copied/moved based on Workspace/s or User/s or Account, something not possible using Smartsheet DataShuttle which only operate at sheet level.
-3. **Flexible invocations** Offloader/Onloader can be run on-demand or scheduled.  In addition offloader can be triggered by Smartsheet or Enterprise Events.
-4. **Folder hierarchies** HSO retain folder hierarchies
-5. **Onload to** HSO can onload to Smartsheet or most of the Industry acceptable solutions
+3. **Flexible Data Selection** Advanced filtering options allow users to select specific sheets, folders, users, or complete account for migration based on criteria like file User, Workspace or sheet naming.
+5. **Folder hierarchies** HSO retain folder hierarchies
+6. **Onload to** HSO can onload to Smartsheet or most of the Industry acceptable solutions
+7. **Automation and scheduling** Automates workflows to move data when it make sense, reducing manual intervention. Offloader/Onloader can be run on-demand or scheduled.  In addition offloader can be triggered by Smartsheet or Enterprise Events.
+8. **Metadata Preservation** Captures and restores Smartsheet structures (Folder hierarchies, names, etc) and retain knowledge of most attributes.
+9. **Data Integrity & Security** Uses checksum algorithms (MD5, SHA256) to verify file transfers and supports encrypted transport and authentication.  Offloaded data under your control.
 
 
 ## When to use

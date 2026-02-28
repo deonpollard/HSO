@@ -1,5 +1,5 @@
 # HSO: High Speed Offloader/Onloader for Smartsheet
-The bulk data movement solution for efficiently moving bulk data in and out of Smartsheet, effortlessly overcoming the platform's inherent 100-item limitation.
+The data movement solution for efficiently moving bulk data in and out of Smartsheet, effortlessly overcoming the platform's inherent 100-item limitation.
 
 When used in conjunction with SmartBackup, HSO increases accuracy, mitigates risks, and helps with compliance requirements. In stand-alone mode, HSO excels as a bulk data migrator, take-on engine, or solution duplicator.
 
@@ -8,7 +8,8 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 1. **Inter Region** Operate and move data accross Smartsheet regions, something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. **Intra Region** Data can be copied/moved based on Workspace/s or User/s or Account, something not possible using Smartsheet DataShuttle which only operate at sheet level.
 3. **Flexible invocations** Offloader/Onloader can be run on-demand or scheduled.  In addition offloader can be triggered by Smartsheet or Enterprise Events.
-4. **Folder hierarchies** Offload retain folder hierarchies
+4. **Folder hierarchies** HSO retain folder hierarchies
+5. **Onload to** HSO can onload to Smartsheet or most of the Industry acceptable solutions
 
 
 ## When to use

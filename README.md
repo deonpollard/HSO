@@ -43,9 +43,9 @@ Offload can be triggered using Smartsheet automations using events such as
 3. trigger offload on a schedule
 
 > [!NOTE]
-> When using Zapier and others offering WebHook facilities a one can access a lot more SmartSheet events.  For example one can
-> 1. trigger event when backup-is-requested or enable any of the following
-> 2. (Current list of Events)[https://developers.smartsheet.com/api/smartsheet/event-types]
+> When using Zapier and others offering WebHook facilities one can access a lot more SmartSheet events.
+> For example one can trigger event when backup-is-requested
+> (Current list of Events)[https://developers.smartsheet.com/api/smartsheet/event-types]
 
 
 ### External events
@@ -53,7 +53,19 @@ External events outside Smartsheet or so-called Enterprise events can also trigg
 1.  trigger when a user resign
 2.  
 
-### How does it work?
+### How does triggered events work?
+```mermaid
+sequenceDiagram
+    participant Smartsheet
+    participant HSO_Gateway
+    participant HSO
+    Smartsheet->>HSO_Gateway: enable automation to send email when row is added
+    Note left of HSO_Gateway: smartdataflow@acuworkflow.com
+    HSO_Gateway->>HSO: request offload
+    HSO->>HSO: offload User/Workspace
+    Note right of HSO: offloaded and secured
+```
+
 Any event must send email to the HSO Email gateway to trigger the offload. The flow must construct an email with a specific subject line and send it to the HSO Email gateway at ***smartdataflow@acuworkflow.com*** This address may change in future.
 
 #### Email Format

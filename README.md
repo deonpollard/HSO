@@ -25,9 +25,15 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 | Blueprinting | HHSO enables the effortless creation of new instances for key Projects, Solutions, or Sheet Collections in Smartsheet. Leverage predefined templates to ensure quick and efficient creating. | 
 
 ## Triggered Events
-Offloader can be triggered to offload:
+HSO Offloader can be triggered to offload:
 >   1. Any **User** complete with all its associated workspaces, folders, sheets and attachments
 >   2. Any **Workspace** with all its associated folders, sheets and attachments
+
+> [!NOTE]
+> For Triggered Events to work, the following must be adhered to:
+> 1. HSO must be up and running, using V7.0 Beta or later
+> 2. HSO must be configured with the appropriate SysAdmin Token and Region
+
 
 ### Smartsheet events
 Offload can be triggered using Smartsheet automations using events such as
@@ -43,7 +49,7 @@ External events outside Smartsheet or so-called Enterprise events can also trigg
 2.  
 
 ### How does it work?
-The flow must construct an email with a specific subject line and send it to the HSO Email gateway.  
+Any event must send email to the HSO Email gateway to trigger the offload. The flow must construct an email with a specific subject line and send it to the HSO Email gateway at ***smartdataflow@acuworkflow.com*** This address may change in future.
 
 #### Email Format
 Email message body is ignored, but email subject line must follow the following syntax

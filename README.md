@@ -51,7 +51,7 @@ Offload can be triggered using Smartsheet automations using events such as
 ### External events
 External events outside Smartsheet or so-called Enterprise events can also trigger the offload process.  Optionally these could also be facilitated by Automation solutions such as Zapier, Make, Power-Automate and others.  Some examples
 1.  trigger when a user resign
-2.  
+2.  trigger when department is re-located
 
 ### How does triggered events work?
 ```mermaid
@@ -72,31 +72,36 @@ Any event must send email to the HSO Email gateway to trigger the offload. The f
 Email message body is ignored, but email subject line must follow the following syntax
 
 ##### When signaling the offload of a complete User
-   > ***offload/secret/email*** or
-   > ***offload/secret/email/user***
+   > ***offload/sharedsecret/email*** or
+   > ***offload/sharedsecret/email/user***
 ---
 ```
       - slashes must subdivide the info without any spaces as shown
       - offload must be spelled as shown
-      - secret is the allocated license code from HSO
+      - sharedsecret is the allocated license code from HSO
       - email is the email address of the Smartsheet user 
       - user can optionally be supplied and must be spelled as shown
 ```
 Example ***offload/87f2243/janie.adams@acme.com***
        
 ##### When signaling the offload of a Workspace
-   > ***offload/secret/email/workspace/workspaceid***
+   > ***offload/sharedsecret/email/workspace/workspaceid***
 ---
 ```
 - slashes must subdivide the info without any spaces as shown
 - offload must be spelled as shown
-- secret is the allocated license code from HSO
+- sharedsecret is the allocated license code from HSO
 - email is the email address of the Smartsheet user 
 - workspace must be spelled as shown
 - workspaceid is the Smartsheet id for the workspace
 ```
 Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 
+> [!NOTE]
+> The sharedsecret is the allocated license code shared with the Smartsheet Administrator when installing HSO.
+> If mislaid by the Administrator, AcuWorkflow support can be contacted for the value.  Otherwise the HSO
+> installation subfolder /data could be browsed and an encrypted file with the name lic.xxxxxx.lic should be visible.
+> xxxxxx is the license code to be use. 
 
 
 

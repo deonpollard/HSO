@@ -32,7 +32,7 @@ HSO Offloader can be triggered to offload:
 > [!NOTE]
 > For Triggered Events to work, the following must be adhered to:
 > 1. HSO must be up and running, using V7.0 Beta or later
-> 2. HSO must be configured with the appropriate SysAdmin Token and Region
+> 2. HSO must be configured with the appropriate SysAdmin Token and Region thus connecting to the Smartsheet Region where you want to offload from
 
 
 ### Smartsheet events
@@ -41,6 +41,11 @@ Offload can be triggered using Smartsheet automations using events such as
 1. trigger offload when new rows are added or changed
 2. trigger offload when a user is removed from a group
 3. trigger offload on a schedule
+
+> [!NOTE]
+> When using Zapier and others offering WebHook facilities a one can access a lot more SmartSheet events.  For example one can
+> 1. trigger event when backup-is-requested or enable any of the following
+> 2. (Current list of Events)[https://developers.smartsheet.com/api/smartsheet/event-types]
 
 
 ### External events

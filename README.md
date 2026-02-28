@@ -3,6 +3,19 @@ The data movement solution for efficiently moving bulk data in and out of Smarts
 
 When used in conjunction with SmartBackup, HSO increases accuracy, mitigates risks, and helps with compliance requirements. In stand-alone mode, HSO excels as a bulk data migrator, take-on engine, or solution duplicator.
 
+```mermaid
+flowchart LR
+    subgraph Smartsheet
+    A[Start] --> B(Smartsheet)
+    end
+    B --> |Offload| D[File Storage]
+    D --> |Onload| B
+    subgraph HSO
+    D --> |Onload| E[Other Providers]
+    end
+```
+
+
 ## Features
 
 1. **Inter Region** Operate and move data accross Smartsheet regions, something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet

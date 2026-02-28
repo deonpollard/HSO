@@ -6,12 +6,12 @@ When used in conjunction with SmartBackup, HSO increases accuracy, mitigates ris
 ```mermaid
 flowchart LR
     subgraph Smartsheet
-    A[Start] --> B(Smartsheet)
+    A[Smartsheet] --> B(Workspaces)
     end
     B --> |Offload| D[File Storage]
     D --> |Onload| B
     subgraph HSO
-    D --> |Onload| E[Other Providers]
+    D -.-> |Onload| E[Other Providers]
     end
 ```
 

@@ -118,7 +118,7 @@ Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 > The sharedsecret is the allocated license code shared with the Smartsheet Administrator when installing HSO.
 > If mislaid by the Administrator, AcuWorkflow support can be contacted for the value.  Otherwise the HSO
 > installation subfolder /data could be browsed and an encrypted file with the name lic.xxxxxx.lic should be visible.
-> xxxxxx is the license code to be use. 
+> xxxxxx is the shared secret code to use. 
 
 
 

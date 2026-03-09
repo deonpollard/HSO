@@ -16,6 +16,8 @@ flowchart LR
 ```
 
 
+![A cute cat](MapShapes.png "Cat Image")
+
 ## Features
 
 1. **Multi-Region Connectivity** Moves data across different Smartsheet regions (US, EU, APJ, GOV), something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet

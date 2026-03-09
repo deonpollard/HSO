@@ -15,9 +15,6 @@ flowchart LR
     end
 ```
 
-
-![A cute cat](MapShapes.png "Cat Image")
-
 ## Features
 
 1. **Multi-Region Connectivity** Moves data across different Smartsheet regions (US, EU, APJ, GOV), something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
@@ -124,5 +121,9 @@ Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 > installation subfolder /data could be browsed and an encrypted file with the name lic.xxxxxx.lic should be visible.
 > xxxxxx is the shared secret code to use. 
 
+## OnRamp
 
+### OnRamp to Powerpoint
+
+![A cute cat](MapShapes.png "Cat Image")
 

@@ -26,6 +26,8 @@ flowchart LR
 7. **Automation and scheduling** Automates workflows to move data when it make sense, reducing manual intervention. Offloader/Onloader can be run on-demand or scheduled.  In addition offloader can be triggered by Smartsheet or Enterprise Events.
 8. **Metadata Preservation** Captures and restores Smartsheet structures (Folder hierarchies, names, etc) and retain knowledge of most attributes.
 9. **Data Integrity & Security** Uses checksum algorithms (MD5, SHA256) to verify file transfers and supports encrypted transport and authentication.  Offloaded data under your control.
+10. **OnRamp** Should the need arise, offloaded sheets can be transformed into PPT-Decks or Database-Tables, a process called **onramp**.
+    
 
 
 ## When to use

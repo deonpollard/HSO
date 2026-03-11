@@ -125,5 +125,7 @@ Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 
 ### OnRamp to Powerpoint
 
+![A cute cat](images/onramp.png "MapShapes")
+
 ![A cute cat](images/MapShapes.png "MapShapes")
 

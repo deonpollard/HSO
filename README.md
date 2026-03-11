@@ -137,12 +137,26 @@ OnRamp is the process whereby sheets can be turned into Powerpoint files or Data
 
 1. Select Workspace you are interested in.
 2. Click Data Transfer button which will create a configuration file later to be used by subsequent onload/onramp processes
-3. Click OnRamp button
+3. Click OnRamp button which will now be visible.
 
-![A cute cat](images/onramp.png "MapShapes")
+![A cute cat](images/onramp.png)
+
+You will be guided via a 4 step wizard.  Please follow happy path and supply values that is needed.
+
+![](images/onrampchoices.png)
 
 ### OnRamp to Powerpoint
 
-1. Choose Powerpoint
-![](images/onrampchoices.png)
+Capability functions like a mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide with chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
+
+
+
+### Step 1 Choose Service
+
+1. Select Powerpoint from Dropdown
+2. Select a Template
+3. Input the blueprint slide number.  This is the slide that will be mail-merged for each sheet row
+4. Provide path name or accept default where generated Powerput will be stored
+5. Provide a name for the output Powerpoint file 
+![](images/onrampto.png)
 

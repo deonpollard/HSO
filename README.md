@@ -148,13 +148,14 @@ Choose between Powerpoint and Database.
 
 #### OnRamp to Powerpoint
 
-    Capability functions like a traditional mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide within chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
-    
-    Actually quite simple.
-    1. Create or choose Powerpoint deck with style appropriate to your purpose.  You may choose/modify supplied sample Templates.
-    2. Create a blueprint slide within that form the basis of the mail-merge. Typically this is a graphic style which conveys the info you require.
-    3. One now must change the blueprint shape names to the sheet column names, so come mail-merge time the right value is inserted into the generated slide.  One does this by picking the select object pane
-    4. Rename shape names to correspond with column names whose values you want to appear.  Easiest is to click on the shape and see what name is highlighted then rename it.
+Capability functions like a traditional mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide within chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
+
+
+Actually quite simple.
+1. Create or choose Powerpoint deck with style appropriate to your purpose.  You may choose/modify supplied sample Templates.
+2. Create a blueprint slide within that form the basis of the mail-merge. Typically this is a graphic style which conveys the info you require.
+3. One now must change the blueprint shape names to the sheet column names, so come mail-merge time the right value is inserted into the generated slide.  One does this by picking the select object pane
+4. Rename shape names to correspond with column names whose values you want to appear.  Easiest is to click on the shape and see what name is highlighted then rename it.
 
 ![](images/onrampblueprint.png)
 
@@ -193,4 +194,27 @@ Choose between Powerpoint and Database.
 
  #### OnRamp to Database
 
-    Capability will take chosen sheet and create a new 
+Capability will take chosen sheet and based on choices create or update a new database with a new or appended database table.
+
+Once can be quite creative in creating a new Database with a new table and then keep on appending same table to contain multiple sheets with like column structures 
+
+ ![](images/onrampdb.png)
+
+The rest of the steps similar to Powerpoint conversion.  
+
+> [!NOTE]
+> In Step 4 Transform a link is provided to a browser based SQL App from where the Database can be securely browsed or manipulated. 
+> Optionally one can use many of the free or paid for SQL Workbenches to manipulate the database
+
+### PowerPoint Worked Example
+*With business conversations mostly supported by PowerPoint it becomes quite a challenge to do a strategic Programme review with all the details in Smartsheet.*  Worked example speak to the need to Equip the Executive with a rich PowerPoint Pack containing current details of companies strategic programmes.
+
+#### HSO with OnRamp to the rescue
+<span style="background-color: yellow;">
+- Once off design a PowerPoint blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
+- Run a quaterly offload of the Workspace containing all Programme transformation details.
+- Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
+- Review and add appropriate input before publishing the pack.
+</span>
+ 
+

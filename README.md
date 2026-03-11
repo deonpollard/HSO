@@ -133,10 +133,16 @@ Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 
 ## OnRamp
 
-OnRamp is the process
+OnRamp is the process whereby sheets can be turned into Powerpoint files or Databases
 
-  
+1. Select Workspace you are interested in.
+2. Click Data Transfer button which will create a configuration file later to be used by subsequent onload/onramp processes
+3. Click OnRamp button
+
 ![A cute cat](images/onramp.png "MapShapes")
 
-![A cute cat](images/MapShapes.png "MapShapes")
+### OnRamp to Powerpoint
+
+1. Choose Powerpoint
+![](images/onrampchoices.png)
 

@@ -142,14 +142,20 @@ OnRamp is the process whereby sheets can be turned into Powerpoint files or Data
 ![A cute cat](images/onramp.png)
 
 You will be guided via a 4 step wizard.  Please follow happy path and supply values that is needed.
+Choose between Powerpoint and Database.
 
 ![](images/onrampchoices.png)
 
 ### OnRamp to Powerpoint
 
-Capability functions like a mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide with chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
+Capability functions like a traditional mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide within chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
 
+Actually very simple.
+- Create or choose Powerpoint deck with style appropriate to your purpose.  You may choose/modify supplied sample Templates.
+- Create a blueprint slide within that form the basis of the mail-merge. Typically this is a graphic style which conveys the info you require.
+- One now must change the blueprint shape names to the sheet column names, so come mail-merge time the right value sis inserted into the generated slide
 
+![](images/onrampblueprint.png)
 
 ### Step 1 Choose Service
 

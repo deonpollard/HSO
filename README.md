@@ -215,23 +215,7 @@ The rest of the steps similar to Powerpoint conversion.
 
 #### Generate Powerpoint Pack
 
-- Once off design a PowerPoint blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
-- Run a quarterly offload of the Workspace containing all Programme transformation details.
-- Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
-- Review and add appropriate input before publishing the pack.
-
-</details>
-
-### Database Worked Example
-*With business conversations mostly supported by PowerPoint it becomes quite a challenge to do a strategic Programme review with all the details in Smartsheet.*  Worked example speak to the need to Equip the Executive with a rich PowerPoint Pack containing current details of companies strategic programmes.
-
-<details>
-
-<summary>Create rich PowerPoint Pack from Smartsheet sheet data</summary>
-
-#### Generate Powerpoint Pack
-
-- Once off design a PowerPoint blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
+- Once off design a PowerPoint Template with a blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
 - Run a quarterly offload of the Workspace containing all Programme transformation details.
 - Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
 - Review and add appropriate input before publishing the pack.
@@ -244,12 +228,12 @@ flowchart LR
     B --> |Qtrly Offload| D[File Storage]
     subgraph HSO
     D -.-> |Onramp| E@{ shape: processes, label: "Powerpoint Slides" }
+    F@{ shape: braces, label: "Template" } -.-> |Onramp| E@{ shape: processes, label: "PowerPoint Slides" }
     end
     subgraph Business
-    E -.-> |Publish| F[PowerPoint Pack]
+    E -.-> |Publish| G[PowerPoint Pack]
     end
 ```
-
 
 </details>
 

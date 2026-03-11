@@ -237,4 +237,35 @@ flowchart LR
 
 </details>
 
+### Database Worked Example
+*Need for analysing million plus rows*  
+
+<details>
+
+<summary>Create Database from Smartsheet sheet data</summary>
+
+#### Generate Database
+
+- Once off design a PowerPoint Template with a blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
+- Run a quarterly offload of the Workspace containing all Programme transformation details.
+- Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
+- Review and add appropriate input before publishing the pack.
+
+```mermaid
+flowchart LR
+    subgraph Smartsheet
+    A[Smartsheet] --> B(Workspaces)
+    end
+    B --> |Qtrly Offload| D[File Storage]
+    subgraph HSO
+    D -.-> |Onramp| E["Database"]
+    F@{ shape: braces, label: "Template" } -.-> |Onramp| E@{ shape: processes, label: "PowerPoint Slides" }
+    end
+    subgraph Business
+    E -.-> |Publish| G[PowerPoint Pack]
+    end
+```
+
+</details>
+
 

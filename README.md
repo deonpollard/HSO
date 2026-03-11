@@ -1,6 +1,8 @@
 # HSO: High Speed Offloader/Onloader for Smartsheet
 The data movement solution for efficiently moving bulk data in and out of Smartsheet, effortlessly overcoming the platform's inherent 100-item limitation.
 
+This is interim documentation documentation highlighting new features in **Version 7.0Beta** Existing documentation is available from [AcuWorkflow](https://hso.acuworkflow.com)
+
 When used in conjunction with SmartBackup, HSO increases accuracy, mitigates risks, and helps with compliance requirements. In stand-alone mode, HSO excels as a bulk data migrator, take-on engine, or solution duplicator.
 
 ```mermaid
@@ -15,8 +17,12 @@ flowchart LR
     D -.-> |Onramp| F[PPT or Database]
     end
 ```
+## New Features
 
-## Features
+1. **Event based offloading** [offloading](#Triggered-Events) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
+2. 
+
+## Platform Features
 
 1. **Multi-Region Connectivity** Moves data across different Smartsheet regions (US, EU, APJ, GOV), something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. **Bulk Data Transfer** Data can be copied/moved based on Workspace/s, User/s or Account, something not possible using Smartsheet DataShuttle which only operate at sheet level.

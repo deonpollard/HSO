@@ -150,19 +150,43 @@ Choose between Powerpoint and Database.
 
 Capability functions like a traditional mail-merge.  Each sheet row will generate a new slide based on the designated blueprint slide within chosen Template.  Row column values will be inserted if the column name is the same as the shape name.
 
-Actually very simple.
-- Create or choose Powerpoint deck with style appropriate to your purpose.  You may choose/modify supplied sample Templates.
-- Create a blueprint slide within that form the basis of the mail-merge. Typically this is a graphic style which conveys the info you require.
-- One now must change the blueprint shape names to the sheet column names, so come mail-merge time the right value sis inserted into the generated slide
+Actually quite simple.
+1. Create or choose Powerpoint deck with style appropriate to your purpose.  You may choose/modify supplied sample Templates.
+2. Create a blueprint slide within that form the basis of the mail-merge. Typically this is a graphic style which conveys the info you require.
+3. One now must change the blueprint shape names to the sheet column names, so come mail-merge time the right value is inserted into the generated slide.  One does this by picking the select object pane
+4. Rename shape names to correspond with column names whose values you want to appear.  Easiest is to click on the shape and see what name is highlighted then rename it.
 
 ![](images/onrampblueprint.png)
 
 ### Step 1 Choose Service
 
 1. Select Powerpoint from Dropdown
-2. Select a Template
+2. Select sample Template or any Template file you have created
 3. Input the blueprint slide number.  This is the slide that will be mail-merged for each sheet row
 4. Provide path name or accept default where generated Powerput will be stored
-5. Provide a name for the output Powerpoint file 
-![](images/onrampto.png)
+5. Provide a name for the output Powerpoint file
 
+ ![](images/onrampto.png)
+ 
+### Step 2 Choose Sheet
+
+1. All the offloaded sheets in the selected Workspace will be displayed and one must be selected. 
+2. This will become the input source sheet driving the mail-merge
+
+ ![](images/onrampsheet.png)
+ 
+### Step 3 Mapping
+
+1. Ideally this is where source to target mappings take place.
+2. It will display all the source sheet column names
+3. Onramping to Powerpoint means one will have to rename some shape-names in the Template blueprint slide with names corresponding to these column values
+
+ ![](images/onrampmap.png)
+
+ ### Step 4 Transform
+
+1. Here one can do final review and do the transform to generate the Powerpoint deck
+2. Click on results which will open Windows Explorer view to where generated decks are stored
+3. Open the Powerfpoint and refine.
+
+ ![](images/onramptransform.png)

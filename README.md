@@ -209,12 +209,48 @@ The rest of the steps similar to Powerpoint conversion.
 ### PowerPoint Worked Example
 *With business conversations mostly supported by PowerPoint it becomes quite a challenge to do a strategic Programme review with all the details in Smartsheet.*  Worked example speak to the need to Equip the Executive with a rich PowerPoint Pack containing current details of companies strategic programmes.
 
-#### HSO with OnRamp to the rescue
-<span style="background-color: yellow;">
+<details>
+
+<summary>Create rich PowerPoint Pack from Smartsheet sheet data</summary>
+
+#### Generate Powerpoint Pack
+
 - Once off design a PowerPoint blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
-- Run a quaterly offload of the Workspace containing all Programme transformation details.
+- Run a quarterly offload of the Workspace containing all Programme transformation details.
 - Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
 - Review and add appropriate input before publishing the pack.
-</span>
- 
+
+</details>
+
+### Database Worked Example
+*With business conversations mostly supported by PowerPoint it becomes quite a challenge to do a strategic Programme review with all the details in Smartsheet.*  Worked example speak to the need to Equip the Executive with a rich PowerPoint Pack containing current details of companies strategic programmes.
+
+<details>
+
+<summary>Create rich PowerPoint Pack from Smartsheet sheet data</summary>
+
+#### Generate Powerpoint Pack
+
+- Once off design a PowerPoint blueprint slide capturing the essence of what must be reported and make sense for an executive conversation.
+- Run a quarterly offload of the Workspace containing all Programme transformation details.
+- Run PowerPoint Offramp to create basic Excutive deck with all the relevant sheet details in the generated slides
+- Review and add appropriate input before publishing the pack.
+
+```mermaid
+flowchart LR
+    subgraph Smartsheet
+    A[Smartsheet] --> B(Workspaces)
+    end
+    B --> |Qtrly Offload| D[File Storage]
+    subgraph HSO
+    D -.-> |Onramp| E@{ shape: processes, label: "Powerpoint Slides" }
+    end
+    subgraph Business
+    E -.-> |Publish| F[PowerPoint Pack]
+    end
+```
+
+
+</details>
+
 

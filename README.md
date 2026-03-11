@@ -19,8 +19,11 @@ flowchart LR
 ```
 ## New Features
 
-1. **Event based offloading** [offloading](#Triggered-Events) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
-2. 
+1. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
+2. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
+3. [**OnLoad to Other**](#Onload-to-other) Though available in current release calling out some
+4. **Enhancements**
+   - CSV support. When Onloading one can now have a choice to onload as CSV significantly broadening the base of services that could upload offloaded Smartsheet data
 
 ## Platform Features
 
@@ -49,7 +52,7 @@ flowchart LR
 | Regulatory compliance | Use HSO to streamline regulatory record-keeping and ensure compliance with applicable standards. HSO supports regulations such as DORA (Digital Operational Resilience Act) in the EU, helping you meet your organization's compliance requirements with ease. | 
 | Blueprinting | HHSO enables the effortless creation of new instances for key Projects, Solutions, or Sheet Collections in Smartsheet. Leverage predefined templates to ensure quick and efficient creating. | 
 
-## Triggered Events
+## Event based offloading
 HSO Offloader can be triggered to offload:
 >   1. Any **User** complete with all its associated workspaces, folders, sheets and attachments
 >   2. Any **Workspace** with all its associated folders, sheets and attachments
@@ -130,8 +133,9 @@ Example ***offload/87f2243/janie.adams@acme.com/workspace/98766628356786***
 
 ## OnRamp
 
-### OnRamp to Powerpoint
+OnRamp is the process
 
+  
 ![A cute cat](images/onramp.png "MapShapes")
 
 ![A cute cat](images/MapShapes.png "MapShapes")

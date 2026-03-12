@@ -18,18 +18,18 @@ flowchart LR
     D -.-> |Onramp| F[PPT or Database]
     end
 ```
-## New Features in V7.0.0 Beta
+## Key new features in V7.0.0 Beta
 
 1. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
 2. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
-3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations.
+3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations and formats.
 
     | Integrations | Comments |
     | ------------- | ------------- |
     | <img src="images/onloadintegrations.png" width="500" /> | 10+ Tested Integrations.  Added ability to transform offloaded Smartsheet sheets automatically to CSV becuase it is the preferred format for many other providers |
 
 
-## Platform Features
+## Platform Capabilities
 
 1. **Multi-Region Connectivity** Moves data across different Smartsheet regions (US, EU, APJ, GOV), something [not possible](https://help.smartsheet.com/articles/2482447-migrating-data-across-regions) natively from Smartsheet
 2. **Bulk Data Transfer** Data can be copied/moved based on Workspace/s, User/s or Account, something not possible using Smartsheet DataShuttle which only operate at sheet level.

@@ -22,17 +22,12 @@ flowchart LR
 
 1. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
 2. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
-3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations
+3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations.
 
+    | Integrations | Comments |
+    | ------------- | ------------- |
+    | <img src="images/onloadintegrations.png" width="500" /> | 10+ Tested Integrations.  Added ability to transform offloaded Smartsheet sheets automatically to CSV becuase it is the preferred format for many other providers |
 
-
-
-
-
-
-
-4. **Enhancements**
-   - CSV support. When Onloading one can now have a choice to onload as CSV significantly broadening the base of services that could upload offloaded Smartsheet data
 
 ## Platform Features
 

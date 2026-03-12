@@ -1,7 +1,8 @@
 # HSO: High Speed Offloader/Onloader for Smartsheet
 The data movement solution for efficiently moving bulk data in and out of Smartsheet, effortlessly overcoming the platform's inherent 100-item limitation.
 
-This is interim documentation documentation highlighting new features in **Version 7.0Beta** Existing documentation is available from [AcuWorkflow](https://hso.acuworkflow.com)
+This is interim documentation highlighting the new features in **Version 7 Beta** Existing documentation is available from [AcuWorkflow](https://hso.acuworkflow.com)
+[Docs](https://acuworkflow.gitbook.io/acuworkflow-hso-documentation/reference-guide)
 
 When used in conjunction with SmartBackup, HSO increases accuracy, mitigates risks, and helps with compliance requirements. In stand-alone mode, HSO excels as a bulk data migrator, take-on engine, or solution duplicator.
 
@@ -17,11 +18,19 @@ flowchart LR
     D -.-> |Onramp| F[PPT or Database]
     end
 ```
-## New Features
+## New Features in V7.0.0 Beta
 
 1. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
 2. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
-3. [**OnLoad to Other**](#Onload-to-other) Though available in current release calling out some
+3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations
+
+
+
+
+
+
+
+
 4. **Enhancements**
    - CSV support. When Onloading one can now have a choice to onload as CSV significantly broadening the base of services that could upload offloaded Smartsheet data
 

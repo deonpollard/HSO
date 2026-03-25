@@ -20,9 +20,13 @@ flowchart LR
 ```
 ## Key new features in V7.0.0 Beta
 
-1. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
-2. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
-3. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations and formats.
+1. **Enhanced Capabilities** Enhancements and Improvements
+   - Offload Reports Can now also offload **Reports**
+   - When onloading to Other, support parquet file formats in addition to Excel and CSV
+   - Number of improvements to the UI and stability 
+3. [**Event based offloading**](#Event-based-offloading) All workspaces or a specific workspace can be offloaded based on a Smartsheet or Enterprise event.
+4. [**Onramp**](#OnRamp) Transform offloaded sheets into Powerpoint or Database.
+5. [**OnLoad to Other**](#Onload-to-other) Though available in current release added more integrations and formats.
 
     | Integrations | Comments |
     | ------------- | ------------- |
